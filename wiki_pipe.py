@@ -36,7 +36,6 @@ format_instructions = parser.get_format_instructions()
 
 # --- Data Ingestion ---
 # Set a custom User-Agent to comply with Wikipedia's API policies and avoid server blocks
-set_user_agent("WikiPipeBot/1.0")
 set_user_agent("WikiPipeBot")
 # Fetch the page content. auto_suggest=False prevents DisambiguationError on exact matches.
 wiki_page_name = wiki_page_url.split("/")[-1]
