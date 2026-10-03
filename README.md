@@ -28,7 +28,7 @@ The pipeline uses a Pydantic schema to strictly extract the following data point
 
 ## Usage
 
-Update the `WIKI_PAGE_URL` constant in the script to any Wikipedia article you want to analyze, then run the script:
+Update the `wiki_page_url` constant in the script to any Wikipedia article you want to analyze, then run the script:
 
 ```bash
 python wiki_pipe.py
