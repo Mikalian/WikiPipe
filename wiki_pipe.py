@@ -43,7 +43,7 @@ wikipedia_text = page(wiki_page_name, auto_suggest=False).content
 
 # --- LLM Pipeline ---
 template_text = ("Read the following text: {wikipedia_text}\n"
-                 "based on the text, an output according to the following output instructions:\n"
+                 "based on the text, create an output according to the following output instructions:\n"
                  "{format_instructions}."
                  )
 
