@@ -53,3 +53,5 @@ The script outputs a beautifully formatted JSON string ready for database ingest
     "fun_fact": "Leonardo da Vinci had a habit of purchasing caged birds and releasing them."
 }
 ```
+## Contributing
+Suggestions and improvements are welcome! Feel free to open an issue or submit a pull request if you have ideas for new features or better parsing logic.
